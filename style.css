@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(125deg, #adf66e, rgb(236, 161, 100));
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  color: black;
+  font-family: "Timmana", sans-serif;
+  font-size: 9vmin;
+  letter-spacing: 0.75rem;
+ margin-top: 0.5rem;
+ text-align: center;
+ 
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 5rem rgba(0, 0, 0, 0.2);
+  font-size: 8vmin;
+  color: #eeee14;
+  background-color: #d20c29;
+}
+#reset-btn,
+#new-btn {
+  font-size: 1.1rem;
+  height: 3rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 3rem;
+  width: 9rem;
+  border: none;
+}
+.btn-row {
+  gap: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+}
+.hide {
+  display: none;
+}
+.msg-for-winner {
+  text-align: center;
+}
+#message {
+  margin-top: 2rem;
+  color: #a2081f;
+  font-size: 4vmin;
+  font-weight: bold;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  letter-spacing: 0.5rem;
+}

@@ -1,0 +1,42 @@
+@media only screen and (max-width : 320px){
+    .container h1 {
+        
+       margin-bottom:1.5rem;
+       font-size: 2rem;
+       text-align: center;
+       
+      }
+    .btn-row {
+        gap: 1rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+    #reset-btn,
+#new-btn {
+  font-size: 0.75rem;
+  height: 2rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 3rem;
+  width: 12rem;
+  border: none;
+}
+#message {
+    margin-top: 1rem;
+    font-size: 4vmin;
+    letter-spacing: 0.1rem;
+  }
+}
+
+@media only screen and (max-width : 220px){
+    .container h1 {
+        letter-spacing: 0.1rem;
+        margin-bottom:1.5rem;
+        font-size: 2rem;
+       padding-left: 1rem;
+        
+       }
+
+}
